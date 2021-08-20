@@ -1,21 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OnlineStore.Core\OnlineStore.Core.csproj" />
-    <ProjectReference Include="..\OnlineStore.DataAccessLayer\OnlineStore.DataAccessLayer.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Views\Shared\" />
-    <Folder Include="wwwroot\css\" />
-    <Folder Include="wwwroot\images\products\" />
-    <Folder Include="wwwroot\images\users\" />
-    <Folder Include="wwwroot\js\" />
+    <Folder Include="Entities\" />
   </ItemGroup>
 
   <ItemGroup>
